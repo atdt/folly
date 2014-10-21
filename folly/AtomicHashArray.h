@@ -17,7 +17,7 @@
 /**
  *  AtomicHashArray is the building block for AtomicHashMap.  It provides the
  *  core lock-free functionality, but is limitted by the fact that it cannot
- *  grow past it's initialization size and is a little more awkward (no public
+ *  grow past its initialization size and is a little more awkward (no public
  *  constructor, for example).  If you're confident that you won't run out of
  *  space, don't mind the awkardness, and really need bare-metal performance,
  *  feel free to use AHA directly.
